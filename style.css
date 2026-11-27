@@ -1,0 +1,17 @@
+
+:root{--bg:#f7f3ea;--fg:#2b2723;--muted:#8a8177;--accent:#2f5d62;--rule:#d9d1c3}
+@media (prefers-color-scheme:dark){:root{--bg:#1c1b19;--fg:#e8e2d6;--muted:#9a9186;--accent:#7fb3b8;--rule:#3a3732}}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:"Noto Serif TC","Songti TC","PMingLiU",serif;line-height:1.95;font-size:18px}
+main{max-width:640px;margin:0 auto;padding:32px 20px 80px}
+h1{font-size:1.6em;line-height:1.4;margin:.2em 0 1.2em;letter-spacing:.05em}
+p{margin:0 0 1.15em;text-align:justify}
+hr{border:0;text-align:center;margin:2em 0}hr:after{content:"◇　◇　◇";color:var(--muted);letter-spacing:.3em}
+blockquote{margin:1.2em 0;padding:.2em 1em;border-left:3px solid var(--rule);color:var(--muted)}
+a{color:var(--accent);text-decoration:none}
+a.jd{color:inherit;border-bottom:1px dotted var(--accent)}
+.meta{color:var(--muted);font-size:.85em;margin-bottom:.4em}
+nav.pager{display:flex;justify-content:space-between;gap:12px;margin-top:3em;padding-top:1.2em;border-top:1px solid var(--rule);font-size:.95em}
+ul.toc{list-style:none;padding:0}ul.toc li{padding:.6em 0;border-bottom:1px solid var(--rule);display:flex;justify-content:space-between;gap:12px}
+ul.toc .d{color:var(--muted);font-size:.85em;white-space:nowrap}
+.note{color:var(--muted);font-size:.72em;margin-top:2.5em}
